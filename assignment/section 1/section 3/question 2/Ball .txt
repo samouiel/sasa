@@ -1,0 +1,20 @@
+package week3;
+
+public class Ball implements Tossable{
+    String bName;
+    Ball(){}
+    
+    public Ball(String bn){
+        this.bName = bn;
+    }
+    
+    public void toss(){}
+    
+    public String getBrandName(){
+        return "Brand name is : " + brandName;
+    }
+    
+    public int Bounce(int bounce){
+        return bounce;
+    }
+}

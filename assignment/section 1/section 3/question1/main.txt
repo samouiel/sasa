@@ -1,0 +1,13 @@
+package week3;
+public class Main {
+
+    public static void main(String[] args) {
+       Mammal ma = new Mammal();
+       ma.eat();
+       ma.travel();
+       ma.NoOfLegs();
+       ma.FavFood();
+        
+    }
+
+}
